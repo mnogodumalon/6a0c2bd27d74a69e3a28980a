@@ -1,0 +1,5 @@
+- Mitglieder (mitglieder): vorname[string/text], nachname[string/text], email[string/email], telefon[string/tel]
+- Kurse (kurse): kursname[string/text], einzelpreis[number], karten10_preis[number], monatsabo_preis[number]
+- Buchungen (buchungen): kurs[applookup/select], buchungsart[lookup/radio], anzahl[number], buchungsdatum[date/date], preis[number], bezahlt[bool], mitglied[applookup/select]
+  → kurs links to app_id 6a0c2bba5a97c0d9a76d187f
+  → mitglied links to app_id 6a0c2bb73be88fb13d6da8f8

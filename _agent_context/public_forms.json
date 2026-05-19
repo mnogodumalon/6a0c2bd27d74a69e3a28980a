@@ -1,0 +1,48 @@
+{
+  "version": 1,
+  "forms": [
+    {
+      "entity": "mitglieder",
+      "app_id": "6a0c2bb73be88fb13d6da8f8",
+      "path": "/rest/apps/6a0c2bb73be88fb13d6da8f8/records",
+      "allowed_fields": [
+        "vorname",
+        "nachname",
+        "email",
+        "telefon"
+      ],
+      "pow": true,
+      "pow_difficulty": 50000,
+      "title": "Mitglieder — Formular"
+    },
+    {
+      "entity": "kurse",
+      "app_id": "6a0c2bba5a97c0d9a76d187f",
+      "path": "/rest/apps/6a0c2bba5a97c0d9a76d187f/records",
+      "allowed_fields": [
+        "kursname",
+        "einzelpreis",
+        "karten10_preis",
+        "monatsabo_preis"
+      ],
+      "pow": true,
+      "pow_difficulty": 50000,
+      "title": "Kurse — Formular"
+    },
+    {
+      "entity": "buchungen",
+      "app_id": "6a0c2bbaf17fab41001998d6",
+      "path": "/rest/apps/6a0c2bbaf17fab41001998d6/records",
+      "allowed_fields": [
+        "buchungsart",
+        "anzahl",
+        "buchungsdatum",
+        "preis",
+        "bezahlt"
+      ],
+      "pow": true,
+      "pow_difficulty": 50000,
+      "title": "Buchungen — Formular"
+    }
+  ]
+}
